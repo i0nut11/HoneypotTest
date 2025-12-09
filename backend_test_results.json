@@ -1,0 +1,64 @@
+{
+  "summary": {
+    "total_tests": 9,
+    "passed_tests": 9,
+    "success_rate": 1.0,
+    "timestamp": "2025-12-09T19:39:13.676496"
+  },
+  "detailed_results": [
+    {
+      "test": "Honeypot Login - Basic",
+      "success": true,
+      "details": "Status: 200, Response: {'success': False, 'message': 'Invalid credentials. Please try again.', 'error_code': 'AUTH_FAILED'}",
+      "timestamp": "2025-12-09T19:39:13.337171"
+    },
+    {
+      "test": "SQL Injection Detection",
+      "success": true,
+      "details": "SQL injection payload sent, Status: 200",
+      "timestamp": "2025-12-09T19:39:13.375020"
+    },
+    {
+      "test": "XSS Detection",
+      "success": true,
+      "details": "XSS payload sent, Status: 200",
+      "timestamp": "2025-12-09T19:39:13.413148"
+    },
+    {
+      "test": "Admin Login - Failure",
+      "success": true,
+      "details": "Status: 401 (expected 401)",
+      "timestamp": "2025-12-09T19:39:13.488571"
+    },
+    {
+      "test": "Admin Login - Success",
+      "success": true,
+      "details": "Status: 200, Has token: True",
+      "timestamp": "2025-12-09T19:39:13.525601"
+    },
+    {
+      "test": "Attack Stats API",
+      "success": true,
+      "details": "Status: 200, Has required fields: True",
+      "timestamp": "2025-12-09T19:39:13.564057"
+    },
+    {
+      "test": "Attack Timeline API",
+      "success": true,
+      "details": "Status: 200, Timeline entries: 1",
+      "timestamp": "2025-12-09T19:39:13.599740"
+    },
+    {
+      "test": "Live Attacks API",
+      "success": true,
+      "details": "Status: 200, Live attacks: 5",
+      "timestamp": "2025-12-09T19:39:13.640828"
+    },
+    {
+      "test": "Clear Attacks API",
+      "success": true,
+      "details": "Status: 200, Deleted: 5 records",
+      "timestamp": "2025-12-09T19:39:13.675584"
+    }
+  ]
+}
