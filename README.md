@@ -277,4 +277,4 @@ Contribuțiile sunt binevenite! Deschide un Issue sau Pull Request.
 
 ## 📧 Contact
 
-Creat cu ❤️ folosind [Emergent](https://emergent.sh)
+Creat cu ❤️ pentru comunitatea de security
